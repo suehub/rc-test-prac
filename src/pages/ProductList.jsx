@@ -26,7 +26,7 @@ export default function ProductList() {
     <Container>
       {productData.map((p) => {
         return (
-            <div onClick={() => navigate(`/result/?id=${p.id}`, {state: p})} className='item'>
+            <div onClick={() => navigate(`/result/?id=${p.id}&url=${p.url}`, {state: p})} className='item'>
               <img src={p.url} />
             </div>
         )

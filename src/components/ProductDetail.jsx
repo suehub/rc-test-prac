@@ -23,7 +23,7 @@ export default function ProductDetail() {
 
     return (
         <div>
-            {/* <img src={product.url} /> */}
+            <img src={queryData.url} />
             <div>{queryData.id}</div>
         </div>
     )
