@@ -21,7 +21,7 @@ export default function Header() {
             <NavStyle>
                 <div className='nav-home' onClick={() => navigate('/')}>Home</div>
                 <div className='nav-info' onClick={() => navigate('/info')}>Info</div>
-                <div className='nav-product' onClick={() => navigate('/product:id')}>Product</div>
+                <div className='nav-product' onClick={() => navigate('/product')}>Product</div>
                 <div className='nav-review' onClick={() => navigate('/review')}>Review</div>
             </NavStyle>
         </Container>
