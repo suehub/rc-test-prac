@@ -20,7 +20,7 @@ export default function RootRoute() {
             <Route path='/signin' element={<Signin />} />
             <Route path='/info' element={<Info />} />
             <Route path='/product' element={<ProductList/>} />
-            <Route path='/product/:id' element={<ProductDetail />} />
+            <Route path='/result/' element={<ProductDetail />} />
             <Route path='/review' element={<Review />} />
             <Route path='/*' element={<NoMatch/>} />
         </Routes>
